@@ -20,11 +20,11 @@ echo "$TEST_VAR" > "$SERVER_IP".txt #ecrit TEST_VAR dans le fichier SERVER_IP lo
 
 On va aller dans google sheets faire un tableau comme celui ci:
 
-| SERVER_IP   | TEST_VAR |   |   |   |
-|-------------|----------|---|---|---|
-| 121.131.2.1 | karis    |   |   |   |
-| 198.232.1.4 | booba    |   |   |   |
-| 192.930.2.4 | pnl      |   |   |   |
+| SERVER_IP   | TEST_VAR |
+|-------------|----------|
+| 121.131.2.1 | karis    |
+| 198.232.1.4 | booba    |
+| 192.930.2.4 | pnl      |
 
 *Il faut faire attention a ne pas rentrer des espaces en trop ;)*
 
