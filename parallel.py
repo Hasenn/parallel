@@ -36,5 +36,5 @@ if __name__ == "__main__":
         reader = csv.DictReader(csvfile)
         for i, row in enumerate(reader):
             run(args.script, row)
-            print(f"Server {i+1}/{len(row)} done.")
+            print(f"Server {i+1} done.")
     

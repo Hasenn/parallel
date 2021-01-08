@@ -2,7 +2,7 @@
 
 ## Installation
 
-Pratique mais pas nécessaire
+Pratique mais pas nécessaire.
 
 ```sh
 cp path/to/repo/parallel.py /usr/bin/parallel
@@ -50,6 +50,12 @@ veyrier@laptop:~/scripts/parallel$ cat '121.131.2.1.txt'
 karis
 
 ```
+
+## Exemple
+
+### Templating
+
+Les variables d'environnement que l'on utilise ici fonctionnent avec `envsubst` pour generer des fichiers de configuration personnalisés serveur par serveur aisément. 
 
 ## Notes
 
