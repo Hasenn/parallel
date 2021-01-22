@@ -1,5 +1,9 @@
 # Parallel
 
+## Changelog
+
+Nouveau flag `-p` qui lance notre script de manière réellement parallèle, créant des fichiers de logs pour chaque process ainsi lancé.
+
 ## Installation
 
 Pratique mais pas nécessaire.
@@ -57,9 +61,6 @@ karis
 
 Les variables d'environnement que l'on utilise ici fonctionnent avec `envsubst` pour generer des fichiers de configuration personnalisés serveur par serveur aisément. 
 
-## Notes
-
-Pour l'instant le nom "parallel" est trompeur, ce script lance bien le `.sh` pour chaque ligne les unes après les autres.. 
 
 
 
